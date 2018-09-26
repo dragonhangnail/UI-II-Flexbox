@@ -152,13 +152,14 @@ hr{
 	width: 80%;
 	margin: 40px 0 0 120px;
 }
+.services-header-img{
+	margin-top: 20px;
+}
 .services{
-	width: 30%;
+	width: 100%;
+	margin-top: 40px;
 }
-.product{
-	width: 30%;
-}
-.vision{
+.spv-boxes{
 	width: 30%;
 }
 .contact{
@@ -170,4 +171,42 @@ hr{
 }
 .copyright{
 	margin: 80px 0 40px 400px;
+}
+.spv-boxes{
+	width: 30%;
+}
+.boxes-container{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+.boxes{
+	/* display: flex; */
+	border: 2px solid black;
+	background-color: lightgray;
+	margin: 0 0 80px 0;
+	padding: 20px;
+	width: 40%;
+}
+.boxes p {
+	margin: 10px;
+}
+.boxes button{
+	border-radius: 5px;
+}
+.facts{
+	display: flex;
+	justify-content: space-evenly;
+}
+.facts div{
+	width: 40%;
+	padding: 20px;
+}
+.facts div img{
+	width: 90%;
+}
+ul{
+	list-style-type: square;
+	margin: 20px 0 0 15px;
 }
